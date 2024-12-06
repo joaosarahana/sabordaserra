@@ -1,0 +1,156 @@
+body {
+    font-family: Arial,sans-ser if;
+    margin:0;
+    padding: 0;
+    background-color: rgb(226, 196, 156);
+}
+
+.custom-button {
+    background-color: rgb(210, 119, 0);
+    color: rgb(3, 1, 0);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px
+ 
+}
+
+
+.button-primary {
+    background-color: rgb(210, 119, 0);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button-secondary {
+    background-color: rgb(210, 119, 0);
+    color: rgb(212, 92, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+
+
+
+header {
+    background-color: rgb(226, 196, 156);
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 20px
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(238, 5, 5);
+    font-weight: bold;
+}
+.banner {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(226, 196, 156);
+    padding: 20px;
+}
+.promo-item {
+    text-align: center;
+    width: 45%;
+}
+.promo-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.menu {
+    background-color: rgb(226, 196, 156);
+    padding: 20px;
+text-align: center;
+}
+.menu h1 {
+    margin-bottom: 20px;
+}
+.menu-item {
+    display: inline-block;
+    width: 200px;
+    margin: 15px;
+}
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.lançamentos,.promoçoes {
+    background-color: rgb(226, 196, 156);
+    padding: 20px;
+    text-align: center;
+}
+.lam-item img, .promo-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+.content-box {
+    padding: 10px;
+    background-color: rgb(185, 134, 57);
+    border: 8px solid #0d0808;
+    margin: 250px;
+}
+
+.box2 {
+    background-color: rgb(226, 196, 156);
+    border: 1px;
+    color:rgb(0, 0, 0);
+    margin: -10px;
+   
+  
+}
+
+footer {
+    background-color:  rgb(226, 196, 156);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
+
+#inicio{
+    color: black;
+}
+
+#pc{
+    color: black;
+}
+
+#img{
+    border: 10px;
+    padding: 100px;
+    align-items: center;
+    width: 50%;  /* A imagem pode ficar até 100% da largura do contêiner, mas não ultrapassará esse valor */
+    height: auto
+}
+
+
+

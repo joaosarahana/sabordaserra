@@ -1,0 +1,84 @@
+body {
+    font-family: Arial,sans-ser if;
+    margin: 10px;;
+    padding: 10px;
+    background-color: rgb(226, 196, 156);
+}
+
+.custom-button {
+    background-color: rgb(210, 119, 0);
+    color: rgb(3, 1, 0);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px
+ 
+}
+
+
+.button-secondary {
+    background-color: rgb(185, 134, 57);
+    color: rgb(83, 63, 46);
+    border: none;
+    padding: 30px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+
+
+
+header {
+    background-color: rgb(60, 36, 0);
+    padding: 10px;
+    text-align: center;
+}
+#pc{
+    color: rgb(0, 0, 0)
+    ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Definindo o layout da seção de menu */
+.menu {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as imagens que não cabem em uma linha se movam para a próxima linha */
+    gap: 20px; /* Espaçamento entre os itens */
+    justify-content: space-between; /* Distribui os itens ao longo da linha */
+    margin: 0 auto; /* Centraliza o menu */
+    padding: 20px;
+}
+
+/* Estilo para cada item de menu */
+.menu-item {
+    flex: 1 1 200px; /* Faz os itens ocuparem a mesma quantidade de espaço e ajustarem para o tamanho disponível */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+.menu-item img {
+    width: 100%; /* Faz as imagens se ajustarem ao tamanho do container */
+    height: auto; /* Mantém a proporção das imagens */
+    max-width: 200px; /* Limita a largura máxima das imagens */
+    border-radius: 10px; /* Borda arredondada para as imagens */
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h3 {
+    margin-top: 10px;
+}

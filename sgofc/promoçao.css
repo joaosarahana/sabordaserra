@@ -1,0 +1,48 @@
+body {
+    font-family: Arial,sans-ser if;
+    margin:0;
+    padding: 0;
+    background-color: rgb(226, 196, 156);
+}
+
+.button-primary {
+    background-color: rgb(210, 119, 0);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.content-box {
+    padding: 10px;
+    background-color: rgb(185, 134, 57);
+    width: 500px;
+    border-radius: 10px;
+    border: 8px solid #0d0808;
+    margin: 250px;
+}
+
+.promo-item {
+    text-align: center;
+    width: 45%;
+}
+.promo-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#sg{
+    color: black;
+}
+
+#jpi{
+    color: black;
+}
+
+
+
+

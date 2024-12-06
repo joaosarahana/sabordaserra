@@ -1,0 +1,33 @@
+body {
+    font-family: Arial,sans-ser if;
+    margin:0;
+    padding: 0;
+    background-color: rgb(226, 196, 156);
+    color: rgb(0, 0, 0);
+}
+
+img{
+    width: 500px;
+}
+
+.custom-button {
+    background-color: rgb(210, 119, 0);
+    color: rgb(3, 1, 0);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px
+ 
+}
+
+#inicio{
+    color: black;
+}
+
+#jpi{
+    width: 25px;
+}
+

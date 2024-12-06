@@ -1,0 +1,89 @@
+body {
+    font-family: Arial,sans-ser if;
+    margin:0;
+    padding: 0;
+    background-color: rgb(2, 1, 0);
+}
+
+.custom-button {
+    background-color: rgb(210, 119, 0);
+    color: rgb(3, 1, 0);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px
+ 
+}
+
+
+.button-primary {
+    background-color: rgb(210, 119, 0);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.lançamentos,.promoçoes {
+    background-color: rgb(226, 196, 156);
+    padding: 20px;
+    text-align: center;
+}
+.lam-item img, .promo-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+.content-box {
+    padding: 10px;
+    width: 450px;
+    
+    text-align: center;
+    background-color: rgb(185, 134, 57);
+    border: 8px solid #0d0808;
+    margin: 250px;
+}
+
+#jpi{
+    color: rgb(0, 0, 0);
+}
+
+/* Para garantir que as caixas fiquem lado a lado */
+.lançamentos {
+    display: flex;
+    flex-wrap: wrap;  /* Permite que as caixas se ajustem à tela */
+    justify-content: space-between;  /* Distribui as caixas com espaços entre elas */
+    gap: 20px;  /* Espaço entre os elementos */
+}
+
+.lan-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.lan-item {
+    flex: 1 1 calc(50% - 20px);  /* Define que cada item ocupe metade da largura, com espaço entre eles */
+    box-sizing: border-box;  /* Para garantir que o padding e border não interfiram no tamanho */
+    min-width: 300px;  /* Garante que a largura mínima seja 300px */
+}
+
+
+
+.content-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+
